@@ -116,8 +116,8 @@ class Events {
 		if (config.captureDeviceEvents === false || config.captureDeviceEvents === true)
 			this.captureDeviceEvents = config.captureDeviceEvents;
 
-		if (config.captureEvaluations === false || config.captureEvaluations === true)
-			this.captureFlagEvaluations = config.captureEvaluations;
+		if (config.captureDeviceEvaluations === false || config.captureDeviceEvaluations === true)
+			this.captureFlagEvaluations = config.captureDeviceEvaluations;
 	}
 
 	checkAndRefreshData(currentTimeSlot) {

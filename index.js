@@ -26,3 +26,5 @@ exports.user = function (userId, attributes) {
 // getVariation(fsFlag, fsUser)
 // recordEvent(fsFlag, fsUser, eventName, value)
 // setMaxInitializationWaitTime(timeInMillis)
+// setDeviceInfo(deviceInfo)
+// setAppInfo(appInfo)
